@@ -1,0 +1,41 @@
+{
+  "name": "nextjs-boilerplate",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --project tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@emotion/is-prop-valid": "^1.2.1",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@hookform/resolvers": "^3.4.2",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/material": "^5.15.18",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "@mui/x-date-pickers": "^7.6.1",
+    "@tanstack/react-query": "^5.40.0",
+    "axios": "^1.4.0",
+    "date-fns": "^3.6.0",
+    "dayjs": "^1.11.11",
+    "express": "^4.18.2",
+    "next": "13.4.17",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.51.5",
+    "react-hook-form-resolvers": "^0.0.1",
+    "sharp": "^0.32.5",
+    "styled-components": "^6.1.11",
+    "styled-media-query": "^2.1.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^5.35.6",
+    "@types/node": "^20.5.9",
+    "@types/react": "^18.2.21",
+    "prettier": "3.0.3",
+    "typescript": "^5.1.6"
+  }
+}
